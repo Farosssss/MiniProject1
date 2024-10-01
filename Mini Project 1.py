@@ -11,20 +11,21 @@ password2 = input('password: ')
 if username == username2 and password == password2:     
     print('Login sukses')  
     
-    while True:  # Mulai perulangan di sini       
+    while True:         
         JamKerja = float(input("Jam kerja: ")) 
-        TarifKerja = float(input("Tarif kerja: Rp. ")) # Input
+        TarifKerja = float(input("Tarif kerja: Rp. ")) 
         
-        # Menghitung total gaji
+        
         TotalGaji = JamKerja * TarifKerja
         
         if JamKerja > 160: 
-            TotalGaji *= 1.1  # Bonus jika lebih dari 160 jam kerja
+            bonus = TotalGaji * 0.1
+            TotalGaji = TotalGaji + bonus 
             
         print("Total gaji: Rp.", TotalGaji) 
         
-        pilihan = input("Lagi? (y/n): ") # Perulangan
+        pilihan = input("Lagi? (y/n): ") 
         if pilihan.lower() != "y": 
-            break  # Menghentikan perulangan jika tidak memilih "y"
+            break 
 else:
-    print('Login gagal')  # Eksekusi jika login gagal
+    print('Login gagal') 
