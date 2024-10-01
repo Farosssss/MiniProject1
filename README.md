@@ -26,3 +26,10 @@ Melakukan perulangan apa bila kita ingin melakukan penghitungan ulang
 
 Melakukan eksekusi ketika gagal login
 ![image](https://github.com/user-attachments/assets/52c1fcc2-036e-40cb-bea8-6bcdc85def02)
+
+Ini adalah output dari program yang saya jelaskan di atas
+![image](https://github.com/user-attachments/assets/41989fb6-f352-4747-b009-71842cb3d0db)
+
+Ini adalah gambaran Flowchart dari mini project 1
+![image](https://github.com/user-attachments/assets/a419ee33-10f4-420a-8a09-451445c2b6aa)
+
