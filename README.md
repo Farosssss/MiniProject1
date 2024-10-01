@@ -33,3 +33,45 @@ Ini adalah output dari program yang saya jelaskan di atas
 Ini adalah gambaran Flowchart dari mini project 1
 ![image](https://github.com/user-attachments/assets/a419ee33-10f4-420a-8a09-451445c2b6aa)
 
+1. Mulai:
+Ini adalah titik awal dari alur sistem.
+
+3. Input Registrasi:
+Pengguna diminta memasukkan data registrasi.
+
+3.Input Login:
+Setelah registrasi, pengguna perlu memasukkan username dan password untuk masuk ke sistem.
+
+4. Verifikasi Username dan Password:
+Jika username dan password benar, pengguna dapat lanjut ke proses berikutnya. Jika salah, akan ada error atau instruksi untuk mengulang login.
+
+6. Input Jam Kerja dan Tarif Kerja:
+Pengguna memasukkan data jam kerja dan tarif kerja per jam. Ini adalah langkah untuk menghitung gaji.
+
+6. Menghitung Tarif Gaji:
+Sistem akan menghitung gaji berdasarkan data yang dimasukkan.
+
+8. Tampilkan Total Gaji:
+Hasil perhitungan gaji ditampilkan. Ini merupakan total gaji tanpa bonus.
+
+8. Jam Kerja > 16?:
+Jika jam kerja melebihi 16 jam, maka pengguna berhak mendapatkan bonus.
+
+9. Menghitung Gaji dan Mendapatkan Bonus:
+Jika jam kerja lebih dari 16 jam, sistem menghitung total gaji termasuk bonus.
+
+10. Output – Anda Tidak Mendapatkan Bonus:
+Jika jam kerja kurang dari atau sama dengan 16 jam, maka tidak ada bonus dan hanya total gaji yang ditampilkan.
+
+11. Output – Tampilkan Total Gaji:
+Total gaji ditampilkan, baik dengan bonus (jika memenuhi syarat) atau tanpa bonus.
+
+12. Apakah Anda Ingin Mengulang Program?:
+Sistem akan bertanya apakah pengguna ingin menjalankan ulang proses.
+
+14. Pilih Ya atau Tidak:
+Jika memilih "Ya", pengguna dapat mengulang proses dari awal. Jika memilih "Tidak", program akan berakhir.
+
+16. Selesai:
+Alur sistem selesai
+
